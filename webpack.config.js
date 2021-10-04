@@ -3,11 +3,11 @@ module.exports = {
  "mode": "none",
  "entry": "./src/index.js",
  "output": {
-   "path": __dirname + '/dist',
+   "path": __dirname + '/public',
    "filename": "bundle.js"
  },
 devServer: {
-   static: path.join(__dirname, 'dist')
+   static: path.join(__dirname, 'public')
  },
  "module": {
     "rules": [

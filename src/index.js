@@ -93,10 +93,10 @@ qS(".js-toggle-theme").addEventListener("click", function() {
         themeColor = DARK;
     }
     if (themeColor === LIGHT) {    
-        qS(".js-toggle-theme-img").setAttribute("src", './public/assets/icon-sun.svg');
+        qS(".js-toggle-theme-img").setAttribute("src", './assets/icon-sun.svg');
         qS(".js-main").classList.add("css-main-dark");
     } else if (themeColor === DARK) {
-        qS(".js-toggle-theme-img").setAttribute("src", './public/assets/icon-moon.svg');
+        qS(".js-toggle-theme-img").setAttribute("src", './assets/icon-moon.svg');
         qS(".js-main").classList.remove("css-main-dark");
     }
 });
